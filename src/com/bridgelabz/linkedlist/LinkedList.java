@@ -18,7 +18,7 @@ public class LinkedList implements linked_list {
         }
         temp.next = newNode;
     }
-    public void addFirst(int data){
+    public void addTypeTwo(int data){
         Node newNode = new Node(data);
         if (head == null) {
             head = newNode;
@@ -40,12 +40,26 @@ public class LinkedList implements linked_list {
         }
         temp.next = newNode;
     }
-
+    public void insert(int pos,int data) {
+        Node newNode = new Node(data);
+        if(pos == head.data){
+            newNode.next = head;
+            head = newNode;
+            return;
+        }
+        Node requiredNode = head.next;
+        Node previousNode = head;
+        while(pos != requiredNode.data){
+            previousNode = requiredNode;
+            requiredNode = requiredNode.next;
+        }
+        newNode.next = requiredNode;
+        previousNode.next = newNode;
+    }
     @Override
     public String toString() {
         return "LinkedList{" +
                 "head=" + head +
                 '}';
     }
-
 }
