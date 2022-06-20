@@ -56,6 +56,10 @@ public class LinkedList implements linked_list {
         newNode.next = requiredNode;
         previousNode.next = newNode;
     }
+    public void pop(){
+        Node temp = head;
+        head = temp.next;
+    }
     @Override
     public String toString() {
         return "LinkedList{" +

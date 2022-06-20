@@ -10,6 +10,7 @@ public class ListMain {
         list.add(56);
         list.append(70);
         list.insert(70,30);
+        list.pop();
         //list.append(70);
         //list.append(65);
         System.out.println(list.toString());
