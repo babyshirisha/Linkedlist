@@ -7,9 +7,9 @@ package com.bridgelabz.linkedlist;
 public class ListMain {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
-        list.addFirst(56);
-        list.addFirst(30);
-        list.addFirst(70);
+        list.add(56);
+        list.append(30);
+        list.append(70);
         //list.append(65);
         System.out.println(list.toString());
     }
