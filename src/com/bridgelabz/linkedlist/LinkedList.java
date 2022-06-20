@@ -18,10 +18,21 @@ public class LinkedList implements linked_list {
         }
         temp.next = newNode;
     }
+    public void addFirst(int data){
+        Node newNode = new Node(data);
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+        newNode.data = data;
+        newNode.next = head;
+        head = newNode;
+    }
     @Override
     public String toString() {
         return "LinkedList{" +
                 "head=" + head +
                 '}';
     }
+
 }
