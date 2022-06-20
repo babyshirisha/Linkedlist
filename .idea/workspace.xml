@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2512129b-4c46-4e98-ace2-ebb7db2b1967" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/bridgelabz/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/bridgelabz/linkedlist/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/bridgelabz/linkedlist/ListMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/bridgelabz/linkedlist/ListMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/linkedlist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/linkedlist/ListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/linkedlist/ListMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
