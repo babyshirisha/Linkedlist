@@ -60,6 +60,29 @@ public class LinkedList implements linked_list {
         Node temp = head;
         head = temp.next;
     }
+    public void popLast() {
+        Node lastNode = head;
+        Node previousNode = null;
+        while (lastNode.next != null) {
+            previousNode = lastNode;
+            lastNode = lastNode.next;
+        }
+        previousNode.next = null;
+    }
+    public boolean search(int data) {
+        if (head.data == data ){
+            return true;
+        }
+        Node foundNode = head.next;
+        while (foundNode != null) {
+            if (foundNode.data == data) {
+                System.out.println("search data is present");
+                return true;
+            }
+            foundNode = foundNode.next;
+        }
+        return false;
+    }
     @Override
     public String toString() {
         return "LinkedList{" +
